@@ -12,14 +12,14 @@ pipeline {
         stage('Test') {
             steps {
                 // Exécutez un script de test fictif. Adaptez ceci selon ce que vous avez dans votre dépôt.
-                sh 'python test_script.py'
+                sh 'python3 test_script.py'
             }
         }
 
         stage('Build') {
             steps {
                 // Exécutez un script de construction fictif. Adaptez ceci selon ce que vous avez dans votre dépôt.
-                sh 'python build_script.py'
+                sh 'python3 build_script.py'
             }
         }
     }
