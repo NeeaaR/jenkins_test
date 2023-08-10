@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 print("Début du script de test...")
 
 # Simuler un test. Vous pouvez ajouter de vrais tests ici.
