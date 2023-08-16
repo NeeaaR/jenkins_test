@@ -5,11 +5,14 @@ pipeline {
     // string(name: 'hostname', defaultValue: 'localhost', description: 'Nom d’hôte à utiliser')
     // }
 
+
     stages {
         stage('Checkout') {
             steps {
                 // Cloner le dépôt (ceci est implicite si vous utilisez une source de code intégrée à Jenkins)
                 checkout scm
+
+                sh 'sleep 30'
             }
         }
 
