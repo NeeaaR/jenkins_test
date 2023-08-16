@@ -1,9 +1,9 @@
 pipeline {
     agent any 
 
-    parameters {
-    string(name: 'hostname', defaultValue: 'localhost', description: 'Nom d’hôte à utiliser')
-    }
+    // parameters {
+    // string(name: 'hostname', defaultValue: 'localhost', description: 'Nom d’hôte à utiliser')
+    // }
 
     stages {
         stage('Checkout') {
